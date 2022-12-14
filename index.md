@@ -1,6 +1,6 @@
 # Documentation
 
-<code>c128lib</code> is a library which contains labels, macro, function and pseudocommand to help develop application and games for Commodore 128.
+<code>c128lib</code> is a library which contains labels, macros, functions and pseudocommands to help develop application and games for Commodore 128.
 
 It's hosted as a [GitHub organization](https://github.com/c128lib) and contains several project. Every element and project can be used to develop your application.
 
@@ -20,13 +20,12 @@ Currently implemented projects:
 * framework: work in progess
 
 ## Library introduction
-[Usage](usage)
 
-How to setup your environment and import libraries.
+[Become a developer](becomeadeveloper): setup you environment to become a <code>c128lib</code> developer.
 
-[Changelog](changelog)
+[Usage](usage): setup your environment to use <code>c128lib</code>.
 
-See what is changed.
+[Changelog](changelog): look changes in <code>c128lib</code>.
 
 ## Module documentation
 [Common](common)
