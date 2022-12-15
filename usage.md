@@ -17,7 +17,7 @@ If everything went well, you should open command prompt in your project folder (
 C:\project>gradle wrapper
 </pre>
 
-Then, you should edit (or create) your <code>build.gradle</code> file, that is a sort of settings file for your project. Your file should be like this:
+Then, you should edit (or create) your <code>build.gradle</code>, that is a sort of settings file for your project. Your file should be like this:
 
 <pre>
 plugins {
@@ -34,7 +34,7 @@ retroProject {
 }
 </pre>
 
-<code>plugins</code> refers to Retro Build Tool. The complete manual for Retro Build Tool is available at: https://c64lib.github.io/gradle-retro-assembler-plugin/.
+<code>plugins</code> refers to Retro Build Tool. The complete manual for Retro Build Tool is available [here](https://c64lib.github.io/gradle-retro-assembler-plugin/).
 
 <code>retroProject</code> contains details about your project:
 * <code>dialect</code> and <code>dialectVersion</code> tells about which compiler is used in which version
@@ -43,7 +43,7 @@ retroProject {
 
 ## Importing c128lib projects and libraries
 
-Importin libraries is quite simple and it's made by using and import directive like this:
+Importing libraries is quite simple and it's made by using an import directive like this:
 
 <pre>
 #import "vic2.asm"
@@ -51,12 +51,18 @@ Importin libraries is quite simple and it's made by using and import directive l
 
 Labels are available by using this syntax:
 <pre>
-lda #&lt;c128lib-namespace&gt;.&lt;module-namespace&gt;.&lt;label-name&gt;
+lda &lt;c128lib-namespace&gt;.&lt;module-namespace&gt;.&lt;label-name&gt;
 </pre>
 
-For example, if you need sprite 0, x-coordinate, you can use:
+For example, if you need x-coordinate of sprite 2, you can use:
 <pre>
-lda #c128lib.Vic2.SPRITE_0_X
+lda c128lib.Vic2.SPRITE_2_X
+</pre>
+
+This would be translated to:
+
+<pre>
+lda $D004
 </pre>
 
 Unfortunately, macros cannot be accessed directly, so them are exposed with a prefix like <code>c128lib_</code>, through a <code>*\_global.asm</code> file. So if you need a macro, you need to use:
@@ -69,3 +75,7 @@ and use macros like this:
 <pre>
 c128lib_setRaster(100)
 </pre>
+
+<hr>
+
+Did you find any errors or would you like to suggest an improvement? [Open an issue](https://github.com/c128lib/c128lib.github.io/issues/new)
