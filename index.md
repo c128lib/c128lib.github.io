@@ -11,25 +11,18 @@ Every project has a <code>c128lib</code> filenamespace and (usually) a module na
   lda #c128lib.Vic2.RASTER
 </pre>
 
-Currently implemented projects:
+## Currently implemented projects
 
-* common: contains labels that are no refered with a specific chipset, it's often a base for other projects. It contains also Kernal labels.
+[Common](common): contains labels that are no refered with a specific chipset, it's often a base for other projects. It contains also Kernal labels.
 
-* chipset: labels and macros that directly involves internal chips.
+[Chipset](chipset): labels and macros that directly involves internal chips.
 
-* framework: work in progess
+[Framework](framework): work in progess
 
 ## Library introduction
 
-[Become a developer](becomeadeveloper): setup you environment to become a <code>c128lib</code> developer.
-
 [Usage](usage): setup your environment to use <code>c128lib</code>.
 
+[Become a developer](becomeadeveloper): setup you environment to become a <code>c128lib</code> developer.
+
 [Changelog](changelog): look changes in <code>c128lib</code>.
-
-## Module documentation
-[Common](common)
-
-[Chipset](chipset)
-
-[Framework](framework)
