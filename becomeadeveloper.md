@@ -1,3 +1,0 @@
-# Become a developer
-
-TBD

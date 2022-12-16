@@ -23,6 +23,6 @@ Every project has a <code>c128lib</code> filenamespace and (usually) a module na
 
 [Usage](usage): setup your environment to use <code>c128lib</code>.
 
-[Become a developer](becomeadeveloper): setup you environment to become a <code>c128lib</code> developer.
+[Become a contributor](becomeacontributor): setup you environment to become a <code>c128lib</code> developer.
 
 [Changelog](changelog): look changes in <code>c128lib</code>.
