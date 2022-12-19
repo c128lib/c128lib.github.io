@@ -29,7 +29,7 @@
 
 ## Chipset
 
-### Next version
+### 0.5.0 - 19/12/2022
 * Added io macros on globals
 * Added vdc color codes
 * Added vdc macro for color selection
@@ -40,6 +40,7 @@
 * Breaking change: added cia namespace
 * Breaking change: added sid namespace
 * Breaking change: added Mos8502 namespace
+* Breaking change: moved getTextOffset80Col to Vdc
 * Deps common 0.5.0
 
 ### 0.4.0 - 06/11/2022
