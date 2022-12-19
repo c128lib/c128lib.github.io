@@ -23,10 +23,13 @@ Main documentation:
 * Mapping the Commodore 128 [book]
 
 ## How to contribute
-There are many ways to contribute. You can act as a developer: there as many project that can be improved, maintained (with refactor and bugfixing) or even created.
+There are many ways to contribute. You can act as a developer: there are existing project that can be improved, maintained (with refactor and bugfixing) or even created.
 
-Ideas can be presented, discussed and implemented. GitHub provides a kanban board to assign tasks and monitor progress. You don't want to add too much stiffness, but some coordination is needed if you want to collaborate on an open source project with many people.
+Ideas can be presented, discussed and implemented. GitHub provides a kanban board to assign tasks and monitor progress. Don't want to add too much stiffness, but some coordination is needed if you want to collaborate on an open source project with many people.
 
-There is also an internal team organization where contributors can discuss about library.
+There is also an internal team where contributors can discuss about library.
 
 But if you are not a developer or you prefer to contribute in any other way, you can still participate by writing the memory reference guide or library documentation.
+
+## Ok, beam me up!
+If you want to be a contributor, please [submit an issue](https://github.com/c128lib/.github/issues/new).
