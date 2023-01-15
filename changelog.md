@@ -2,6 +2,13 @@
 
 ## Common
 
+### 0.6.0 - Under development
+* Added MoveCursor, PrintString* macros in video.asm
+
+### 0.5.1 - 02/01/2023
+* Fixed missing #importonce in common-global.asm
+* Little in-code documentation for kernal and screen editor
+
 ### 0.5.0 - 29/11/2022
 * Added screen editor labels
 
@@ -28,6 +35,12 @@
 * First release
 
 ## Chipset
+
+### 0.6.0 - Under development
+* Added SpriteMove macro
+* Added Sprite(Disable|Enable), Sprite(Disable|Enable)Multicolor, SpriteColor, SpriteMultiColor*
+* Added WriteToVdcMemory*, ReadFromVdcMemory*
+* Breaking change: edited some macro name on sprites.asm
 
 ### 0.5.0 - 19/12/2022
 * Added io macros on globals
