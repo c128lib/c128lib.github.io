@@ -1,3 +1,7 @@
+---
+layout: default
+title: Usage
+---
 # Usage
 
 <code>c128lib</code> is a set of libraries that can be used in assembly programs written with Kick Assembler. Each library has  one or more source files that can be then imported in your Kick Assembler program. The most convenient is using Gradle.
