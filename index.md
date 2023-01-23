@@ -1,3 +1,7 @@
+---
+layout: default
+title: Index
+---
 # Documentation
 
 <code>c128lib</code> is a library which contains labels, macros, functions and pseudocommands to help develop application and games for Commodore 128.
@@ -24,5 +28,7 @@ Every project has a <code>c128lib</code> filenamespace and (usually) a module na
 [Usage](usage): setup your environment to use <code>c128lib</code>.
 
 [Become a contributor](becomeacontributor): setup you environment to become a <code>c128lib</code> developer.
+
+[Best practice](bestpractice): some best practice to help coding better.
 
 [Changelog](changelog): look changes in <code>c128lib</code>.
