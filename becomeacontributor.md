@@ -1,3 +1,7 @@
+---
+layout: default
+title: Become a contributor
+---
 # Become a contributor
 
 If you want to become a contributor, you should start with [usage](usage) page. You'll find some tools and configuration that helps you to start and setup your environment.
