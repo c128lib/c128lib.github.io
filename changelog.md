@@ -2,8 +2,9 @@
 
 ## Common
 
-### 0.6.0 - Under development
+### 0.6.0 - 25/01/2023
 * Added MoveCursor, PrintString* macros in video.asm
+* Added div16By16 and div16By8
 
 ### 0.5.1 - 02/01/2023
 * Fixed missing #importonce in common-global.asm
