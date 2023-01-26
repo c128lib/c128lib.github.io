@@ -37,11 +37,13 @@
 
 ## Chipset
 
-### 0.6.0 - Under development
+### 0.6.0 - 26/01/2023
 * Added SpriteMove macro
 * Added Sprite(Disable|Enable), Sprite(Disable|Enable)Multicolor, SpriteColor, SpriteMultiColor*
 * Added WriteToVdcMemory*, ReadFromVdcMemory*
 * Breaking change: edited some macro name on sprites.asm
+* Deps retro-assembler 1.6.0
+* Deps common 0.6.0
 
 ### 0.5.0 - 19/12/2022
 * Added io macros on globals
