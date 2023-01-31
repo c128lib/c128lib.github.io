@@ -37,6 +37,9 @@
 
 ## Chipset
 
+### 0.6.1 - 31/01/2023
+* Added $d02f $d030 labels to Vic2
+
 ### 0.6.0 - 26/01/2023
 * Added SpriteMove macro
 * Added Sprite(Disable|Enable), Sprite(Disable|Enable)Multicolor, SpriteColor, SpriteMultiColor*
@@ -81,4 +84,6 @@
 
 ## Framework
 
-Under development
+### 0.1.0 - Unplanned
+* Sorting: bubble sort and quick sort
+* Deps chipset 0.6.1
