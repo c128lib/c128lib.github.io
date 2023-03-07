@@ -87,3 +87,4 @@
 ### 0.1.0 - Unplanned
 * Sorting: bubble sort and quick sort
 * Deps chipset 0.6.1
+* Deps retro-assembler 1.6.0
