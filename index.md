@@ -27,6 +27,8 @@ Every project has a <code>c128lib</code> filenamespace and (usually) a module na
 
 [Usage](usage): setup your environment to use <code>c128lib</code>.
 
+[Predefined subroutines](predefinedsubroutines): what are and how to use them.
+
 [Become a contributor](becomeacontributor): setup you environment to become a <code>c128lib</code> developer.
 
 [Best practice](bestpractice): some best practice to help coding better.

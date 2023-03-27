@@ -37,6 +37,11 @@
 
 ## Chipset
 
+### 0.7.0 - 27/03/2023
+* Added predefined routines for Vdc (see readme file)
+* Added space and return keypress macro
+* Breaking change: renamed some Vdc macros (changed case)
+
 ### 0.6.1 - 31/01/2023
 * Added $d02f $d030 labels to Vic2
 
