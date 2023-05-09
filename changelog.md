@@ -37,6 +37,10 @@
 
 ## Chipset
 
+### 0.8.0 - Under development
+* Bugfix: wrong implementation of ReadVdcWithKernal
+* Breaking change: renamed define for Vdc predefind routine
+
 ### 0.7.0 - 27/03/2023
 * Added predefined routines for Vdc (see readme file)
 * Added space and return keypress macro
@@ -89,7 +93,12 @@
 
 ## Framework
 
-### 0.1.0 - Unplanned
-* Sorting: bubble sort and quick sort
+### 0.2.0 - Under development
+* Deps chipset 0.7.0
+
+### 0.1.0 - 09/05/2023
+* Sorting: bubble sort
+* Random number: pseudo random number generator
+* String manipulation
 * Deps chipset 0.6.1
 * Deps retro-assembler 1.6.0
